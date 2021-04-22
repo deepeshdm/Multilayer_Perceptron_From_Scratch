@@ -1,3 +1,9 @@
+
+The following is an implementation of a 3 layered artificial neural network in order to classify handwritten digits.
+
+![84ed8a1aaf1887cdddde6afcc117fb0e](https://user-images.githubusercontent.com/63066870/115762153-c7703500-a3c0-11eb-9649-c02ec3a3a5ef.png)
+
+
 Dataset used : MNIST dataset
 
 Training set (60,000 samples) : http://www.pjreddie.com/media/files/mnist_train.csv
