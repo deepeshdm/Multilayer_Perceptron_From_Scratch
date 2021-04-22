@@ -11,4 +11,5 @@ The content of these records, or lines of text, is easy to understand:
 Steps to fetch all pixel values of a 28x28 image from the dataset : 
 
 1] Split that long text string of comma separated values into individual values, using the commas as the place to do the splitting.
+
 2] Ignore the first value, which is the label, and take the remaining list of 28 * 28 = 784 values and turn them into an array which has a shape of 28 rows by 28 columns.
