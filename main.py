@@ -93,17 +93,3 @@ test_image = (numpy.asfarray(all_values[1:]) / 255.0 * 0.99) + 0.01
 predicted_value = numpy.argmax(n.predict(test_image))
 print("ACTUAL LABEL : {} , PREDICTED VALUE : {}".format(actual_label,predicted_value))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
