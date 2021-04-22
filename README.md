@@ -5,7 +5,9 @@ Training set (60,000 samples) : http://www.pjreddie.com/media/files/mnist_train.
 Test set (10,000 samples) : http://www.pjreddie.com/media/files/mnist_test.csv
 
 The content of these records, or lines of text, is easy to understand:
+
 ● The first value is the label, that is, the actual digit that the handwriting is supposed to represent, such as a "7" or a "9". This is the answer the neural network is trying to learn to get right.
+
 ● The subsequent values, all comma separated, are the pixel values of the handwritten digit. The size of the pixel array is 28 x 28, so there are 784 values after the label.
 
 Steps to fetch all pixel values of a 28x28 image from the dataset : 
