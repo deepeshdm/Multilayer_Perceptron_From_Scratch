@@ -27,6 +27,8 @@ class neuralNetwork:
         pass
 
 
+    # This code does feedforward & backpropogation only for a single training sample.
+    # It takes inputs & outputs as 1D array
     def train(self, inputs_list, targets_list):
 
         # FEEDFORWARD
